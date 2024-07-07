@@ -682,7 +682,7 @@ class PerformaInvoiceController extends Controller
 				'paid_amount' => $request->paidamount,
 				'balance_amount' => $request->balanceamount,
 
-				'status' => 'Draft',
+				'status' => $request->status, //'Draft',
 
 				// 'useadvance' => $request->useadvance,
 				// 'cust_name' => $cname,
