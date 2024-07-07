@@ -1,0 +1,206 @@
+@media only screen and (max-width: 1024px) {
+  .kt-app__aside {
+  width: 100% !important;  
+   position: inherit;
+   }
+   .dataTables_wrapper
+   {
+     overflow-x: scroll;
+   }
+   .kt-app__aside .nav-fill .nav-item
+   {
+      width: 100%;
+   }
+}
+
+/******************************************************
+* Detail : For common error                           *
+******************************************************/
+.error{
+  color: red;
+  margin-left: 30%;
+}
+
+.error1 {
+  color: red;
+  margin-left: 30%;
+  /*background: #6d656566;*/
+  margin-top: 2%;
+}
+
+.error2{
+  color: red;
+  margin-left: 10%;
+}
+
+/******************************************************
+* Detail : Employee View Tabs                         *
+******************************************************/
+.ctm_tab1 {
+  text-align: left;
+}
+
+/******************************************************
+* Detail : For Select2                                *
+******************************************************/
+.select2-container {
+  width: 100% !important;
+  padding: 0;
+}
+
+/******************************************************
+* File in View                                        *
+******************************************************/
+.thumbimg {
+  width : 9%;
+}
+
+/******************************************************
+* Common Add Button                                   *
+******************************************************/
+.ctm_add_btn {
+  float: right;
+  margin-bottom: 1%;
+}
+
+/******************************************************
+* Common Add More Button                              *
+******************************************************/
+.add_more_btn {
+  margin-top: 11%
+}
+
+/******************************************************
+* File in Table                                       *
+******************************************************/
+.tableimg {
+  width : 19%;
+}
+
+/********************************************
+* Detail : Certifications                   *
+* Date   : 29-02-2020                       *
+********************************************/
+.certfId {
+  display: none;
+}
+
+/********************************************
+* Common Remove Button in Table             *
+********************************************/
+.tbl_removebtn {
+  width: 53% !important;
+  height: 53% !important;
+}
+
+/******************************************
+* Language Add More Button                *
+******************************************/
+.langadd_more_btn {
+  margin-top: 8%
+}
+
+/******************************************************
+* Details : Desired Job Position Hide Designation Id  *
+* Date    : 12-02-2020                                *
+******************************************************/
+.desgnID {
+  display: none;
+}
+
+/*****************************************
+* Detail : Benefit Activation Add More   *
+* Date   : 19-05-2020                    *
+*****************************************/
+.benefit_actv_addmore {
+  margin-left: 89%;
+}
+
+/**********************************************************
+* Details : Benefit Activation Hide Benefit Activation Id *
+* Date    : 20-05-2020                                    *
+**********************************************************/
+.activationID {
+  display: none;
+}
+
+/*************************************************
+* Detail : Dependant Benefit Activation Add More *
+* Date   : 21-05-2020                            *
+*************************************************/
+.dep_benefit_actv_addmore {
+  margin-left: 89%;
+}
+
+/******************************************************
+* Details : Dependant Benefit Activation Hide Benefit *
+                     Activation Id                    *
+* Date    : 20-05-2020                                *
+******************************************************/
+.dep_activationID {
+  display: none;
+}
+
+/***************************************
+* Employee Events alert date           *
+***************************************/
+.event_alert {
+  display: none;
+}
+
+/***************************************
+* Branch View Images                   *
+***************************************/
+.branch_img {
+  width: 7%;
+}
+
+/***************************************
+* Achievements View Images             *
+***************************************/
+.ach_image {
+  width: 9%;
+}
+
+.award_image {
+  width: 9%;
+}
+
+.certf_image {
+  width: 9%;
+}
+
+/***************************************
+* Common for all employee view pages   *
+***************************************/
+.commonview_profileimage {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.sponsorname_error {
+  color: red;
+  margin-left: 24%;
+}
+
+.visaprof_error {
+  color: red;
+  margin-left: 19%;
+}
+
+.insrcprovider_error {
+  color: red;
+  margin-left: 3%;
+}
+
+.benefitctg_error {
+  color: red;
+  margin-left: 17%;
+}
+
+.iqama_error {
+  color: red;
+  margin-left: 19%;
+}

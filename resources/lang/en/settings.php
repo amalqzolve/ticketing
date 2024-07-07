@@ -1,0 +1,10 @@
+<?php
+return ['title' => 'Localization Exmaple', 'Save' => 'Save', 'Cancel' => 'Cancel', 'New Record' => 'New Record', 'Trash' => 'Trash', 'Back' => 'Back', 'Export' => 'Export', 'Update' => 'Update','Starting Number'=>'Starting Number','Applicable To'=>'Applicable To','Applicable From'=>'Applicable From','Number Suffix'=>'Number Suffix','Number Prefix'=>'Number Prefix','Invoice Number Format'=>'Invoice Number Format','New Settings'=>'New Settings','Settings Lists'=>'Settings','PDF'=>'PDF','CSV'=>'CSV','Copy'=>'Copy','Print'=>'Print','Choose an option'=>'Choose an option','S.No'=>'Sl.No','Action'=>'Action',
+'Branch settings'=>'Branch settings',
+'Header'=>'Header',
+'Footer'=>'Footer','Tax Group'=>'Tax Group','Tax'=>'Tax','Tax Settings'=>'Tax Settings','Tax List'=>'Tax','New Tax'=>'New Tax','Tax Trash List'=>'Tax Trash','Tax List View'=>'Tax View','New Tax Groups'=>'New Tax Groups','Tax Group Trash List'=>'Tax Group Trash','Tax Group List View'=>'Tax Group View','Customer Group Trash list'=>'Customer Group Trash','Customer Category Trash list'=>'Customer Category Trash','Customer Type Trash List'=>'Customer Type Trash','Suppliergroup Information details form'=>'Supplier Group Information','Supplier Type Trash List'=>'Supplier Type Trash','Supplier Type details form'=>'Supplier Type','Vendor Category Trash Details List'=>'Vendor Category Trash Details','Vendor Type Trash List'=>'Vendor Type Trash','Payment Details Form'=>'Payment Details Form','Payment Terms Trash List'=>'Payment Terms Trash','Trash Department List'=>'Trash Department','Terms and Conditions Trash List'=>'Terms and Conditions Trash','Currency List'=>'Currency','New Currency'=>'New Currency','Currency Trash List'=>'Currency Trash','VendorTypeTrashList'=>'Vendor Type Trash','Department Trash'=>'Department Trash','Tax Group'=>'Tax Group','Note'=>'Note','Tax Percentage'=>'Tax Percentage','Tax Group Name'=>'Tax Group Name','Vendor Category Trash'=>'Vendor Category Trash',
+// Email Settings (21-07-2022)
+'EmailSettings'=>'Email Settings',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',''=>'',
+
+];
+

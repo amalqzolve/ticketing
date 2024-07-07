@@ -1,0 +1,1 @@
+var boqListTbl = $('#tbl').DataTable();

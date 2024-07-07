@@ -1,0 +1,444 @@
+Sales Quotation
+Sales Quotation Add
+Sales Quotation Edit
+Sales Quotation Delete
+Sales Quotation Draft
+Sales Quotation Send
+Sales Quotation Negotiated
+Sales Quotation Approved
+Sales Quotation Rejected
+Sales Quotation Revised
+Sales Quotation Revised Version
+Sales Quotation PDF
+Sales Order
+Sales Order Edit
+Sales Order PDF
+Sales Order Approve
+Sales Order Generate Delivery Order
+Sales Order Generate Invoice
+Sales Order Generate Purchase Order
+Delivery Order
+Delivery Order PDF
+Sales Invoice
+Sales Invoice Add
+Sales Invoice Edit
+Sales Invoice PDF
+Sales Invoice Approve
+Sales Invoice Generate Delivery Order
+Performa Invoice
+Performa Invoice Add
+Performa Invoice Edit
+Performa Invoice PDF
+Performa Invoice Convert to Invoice
+Sales Return
+Sales Return Add
+Sales Return PDF
+Credit Note
+Credit Note PDF
+Debit Note
+Debit Note Add
+Debit Note PDF
+Payments
+Advance Receipts
+Advance Receipts Add
+Advance Receipts PDF
+Bill Settlement
+Bill Settlement Add
+Bill Settlement PDF
+Sales Return Convert to Credit Note
+role-list
+role-create
+role-edit
+role-delete
+Administer roles & permissions
+customer_details_add
+customer_details_edit
+customer_details_delete
+customer_details_restore
+customer_documents_add
+customer_documents_edit
+customer_documents_delete
+customer_documents_restore
+customer_accounting_add
+customer_accounting_edit
+customer_accounting_delete
+customer_accounting_restore
+supplier_details_add
+supplier_details_edit
+supplier_details_edit
+supplier_details_delete
+supplier_details_restore
+supplier_documents_add
+supplier_documents_edit
+supplier_documents_delete
+supplier_documents_restore
+supplier_accounting_add
+supplier_accounting_edit
+supplier_accounting_delete_
+supplier_accounting_restoe
+vendor_details_add
+vendor_details_edit
+vendor_details_delete
+vendor_details_restore
+vendor_documents_add
+vendor_documents_edit
+vendor_documents_delete
+vendor_documents_restore
+vendor_accounting_add
+vendor_accounting_edit
+vendor_accounting_delete
+vendor_accounting_restore
+salesman_details_add
+salesman_details_edit
+salesman_details_delete
+salesman_details_restore
+salesman_route_add
+salesman_route_edit
+salesman_route_delete
+salesman_route_restore
+salesman_key_accounts_add
+salesman_key_accounts_edit
+salesman_key_accounts_delete
+salesman_key_accounts_restore
+customer_group_add
+customer_group_edit
+customer_group_delete
+customer_group_restore
+customer_category_add
+customer_category_edit
+customer_category_delete
+customer_category_restore
+customer_type_add
+customer_type_edit
+customer_type_delete
+customer_type_restore
+supplier_group_add
+supplier_group_edit
+supplier_group_delete
+supplier_group_restore
+supplier_category_add
+supplier_category_edit
+supplier_category_delete
+supplier_category_restore
+supplier_type_add
+supplier_type_edit
+supplier_type_delete
+supplier_type_restore
+vendor_type_add
+vendor_type_edit
+vendor_type_delete
+vendor_type_restore
+vendor_group_add
+vendor_group_edit
+vendor_group_delete
+vendor_group_restore
+vendor_category_add
+vendor_category_edit
+vendor_category_delete
+vendor_category_restore
+payment_terms_add
+payment_terms_edit
+payment_terms_delete
+payment_terms_restore
+warehouse_details_add
+warehouse_details_edit
+warehouse_details_delete
+warehouse_details_restore
+warehouse_manager_add
+warehouse_manager_edit
+warehouse_manager_delete
+warehouse_manager_restore
+warehouse_incharge_add
+warehouse_incharge_edit
+warehouse_incharge_delete
+warehouse_incharge_restore
+store_manager_add
+store_manager_edit
+store_manager_delete
+store_manager_restore
+store_incharge_add
+store_incharge_edit
+store_incharge_delete
+store_incharge_restore
+store_keeper_add
+store_keeper_edit
+store_keeper_delete
+store_keeper_restore
+store_management_add
+store_management_edit
+store_management_delete
+store_management_restore
+inventory_adjustment_add
+inventory_adjustment_edit
+inventory_adjustment_delete
+inventory_adjustment_restore
+rack_management_add
+rack_management_edit
+rack_management_delete
+rack_management_restore
+inventory_settings_add
+inventory_settings_edit
+inventory_settings_delete
+inventory_settings_restore
+account_settings_add
+account_settings_edit
+account_settings_delete
+account_settings_restore
+product_details_add
+product_details_edit
+product_details_delete
+product_details_restore
+unit_add
+unit_edit
+unit_delete
+unit_restore
+brand_add
+brand_edit
+brand_delete
+brand_restore
+manufacturer_add
+manufacturer_edit
+manufacturer_delete
+manufacturer_restore
+attribute_options_add
+attribute_options_edit
+attribute_options_delete
+attribute_options_restore
+category_add
+category_edit
+category_delete
+category_restore
+Invoice
+sales_settings
+sales_order
+stock_adjustment
+delivery_order
+category_price
+settings
+quotation
+sales_return
+purchase_return
+Customer Information
+Documents & Contracts
+Accounting Configuration
+Supplier Information
+Documents & Contracts
+Accounting Configuration
+Salesman Route Details
+Salesman Details
+Customer Group
+Customer Category
+Customer Type
+Supplier Group
+Supplier Category
+Supplier Type
+Product Master
+Stock Master
+Brand
+Manufacturer
+Category
+Batch
+Unit
+Warehouse Details
+Warehouse Managers
+Warehouse Inchargers
+Store Management
+Store Managers
+Store Keepers
+Store In Charge
+Rack Management
+Rack Managers
+Rack In Charge
+Data Migrations
+Purchase Order
+Goods Receipt Note
+Direct Purchase
+Cost Management
+Stock Management
+Sales Management
+Voucher Entry
+Credit Note
+Debit Note
+Advance Requisition
+Payment Requisition
+Advance Payment
+Bill Settlement
+Statement of Account
+Account Head
+Cost Head
+Purchase Reports
+Purchase Orders
+Payments
+Purchase Invoice
+Enquiry
+RFQ
+Estimation
+New Quotation
+New Sales Order
+Purchase Orders
+Goods Receipt Note
+Delivery Order
+Proforma Invoice
+Direct Invoice
+Sales Invoice
+Sales Return
+Credit Note
+Debit Note
+Advance Requisition
+Payment Requistion
+Advance Receipts
+Invoice Settlement
+Bill Settlement
+Statement of Account
+CSM Module
+Tender Module
+BOQ Module
+Tenders Module
+Estimation Module
+Directory Module
+Projects Module
+Team Module
+Procurement Module
+Purchase Module
+Warehouse Module
+Inventory Module
+Asset Module
+Sales Module
+Operations Module
+Contracts Module
+Recruitment Module
+HR Module
+Attendance Module
+Payroll Module
+ESS Module
+Intranet Module
+Approval Module
+Reminder Module
+Documentes Module
+E-Sign Module
+Help Module
+Ticket Module
+Vouchers Module
+E-Treasury Module
+Accounts Module
+Br Finance Module
+Co Finance Module
+Reports Module
+Settings Module
+chat Room Module
+Procurement Dashboard
+Suggestion Chat Room
+EPR
+EPR Purchase Requisition
+EPR BOQ
+EPR Non BOQ
+EPR Stock request
+EPR Approval
+EPR Procurement
+EPR Stock Transfer
+EPR Stock Transfer Approval
+EPR Generated RFQ
+EPR Supplier Quotation
+EPR Purchase Order
+EPR PO Approval
+EPR Approved PO
+EPR Opend PO
+EPR Purchase Index
+EPR Closed PO
+EPR Goods Received Note
+EPR GRN Approval
+EPR Stock In
+EPR Stock In Approval
+EPR Procurement Stock In
+EPR Supplier Invoice Booking
+EPR Supplier Invoice Approval
+EPR Supplier Payment
+EPR Supplier Payment Approval
+EPR Procurement Settings
+EPR Procurement Settings MR Category
+EPR Procurement Settings User Management
+EPR Approval Synthesis
+EPR Approval Synthesis MR
+EPR Approval Synthesis Stock Transfer
+EPR Approval Synthesis PO
+EPR Approval Synthesis GRN
+EPR Approval Synthesis Invoice
+EPR Approval Synthesis Supplier Payment
+EPR Approval Synthesis Stock In
+EPR ADD
+GRN ADD
+Supplier Invoice ADD
+MR Category ADD
+Procurement User ADD
+MR Approval Synthesis ADD
+Stock Transfer Approval Synthesis ADD
+PO Approval Synthesis ADD
+GRN Approval Synthesis ADD
+Invoice Approval Synthesis ADD
+Supplier Payment Approval Synthesis ADD
+Stock In Approval synthesis ADD
+Delivery Order Edit
+Delivery Order Delete
+Delivery Order Approve
+Delivery Order Convert Sales Invoice
+Delivery Order Convert Proforma Invoice
+Enquiry Add
+Enquiry Edit
+Enquiry Approve
+Enquiry PDF
+POS Add
+Sales Order Attachments
+Sales Order Generate Performa Invoice
+Payment Voucher
+Cost Settings
+Purchase Advance Add
+Purchase Advance PDF
+Credit Note Add
+GRN PDF
+Purchase Add
+Purchase Pdf
+Purchase Edit
+Purchase Approve
+Purchase Invoice Add
+Purchase Invoice PDF
+Purchase Invoice Edit
+Purchase Invoice Approved
+Purchase Order Add
+Purchase Order PDf
+Purchase Order Issue
+Purchase Order Edit
+Purchase Order Approve
+Purchase Order GRN
+Purchase Order Purchase Invoice
+Customer Management
+Supplier Management
+Salesman Management
+Key Accounts Management
+CRM Settings
+Customer Settings
+Supplier Settings
+Supplier Bank Account Add
+Supplier Add
+My Account
+Company Settings
+General Settings
+Tax Settings
+Wallet
+App Settings
+Communication Settings
+Custom Field
+Warehouse
+Customer Category Add
+Customer Group Add
+Customer Type Add
+Supplier Category Add
+Supplier Group Add
+Supplier Type Add
+Barcode
+Product Add
+Brand Add
+Manufacturer Add
+Category Add
+Batch Add
+Unit Add
+Customer Add

@@ -1,0 +1,80 @@
+@extends('carRental.common.layout')
+@section('content')
+<link href="{{ URL::asset('assets') }}/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+	<br />
+	<div class="kt-portlet kt-portlet--mobile">
+		<div class="kt-portlet__head kt-portlet__head--lg">
+			<div class="kt-portlet__head-label">
+				<span class="kt-portlet__head-icon">
+					<i class="kt-font-brand flaticon-home-2"></i>
+				</span>
+				<h3 class="kt-portlet__head-title">
+					Edit Car Category
+				</h3>
+			</div>
+		</div>
+		<div class="kt-portlet__body">
+			<form class="kt-form" id="kt_form">
+				<div class="row" style="padding-bottom: 6px;">
+
+					@foreach($data as $datas)
+
+					<div class="col-lg-6">
+						<div class="form-group row pr-md-3">
+							<div class="col-md-4">
+								<label>Category Name<span style="color: red">*</span></label>
+							</div>
+							<div class="col-md-8 input-group input-group-sm">
+								<input type="text" class="form-control" name="name" placeholder="Category Name" id="name" value="<?php echo $datas->name; ?>">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group row pl-md-3">
+							<div class="col-md-4">
+								<label>Decription</label>
+							</div>
+							<div class="col-md-8 input-group input-group-sm">
+								<input type="text" class="form-control" name="decription" placeholder="Decription" id="decription" value="<?php echo $datas->decription; ?>">
+							</div>
+						</div>
+					</div>
+
+					<input type="hidden" id="id" name="id" value="<?php echo $datas->id; ?>">
+					@endforeach
+				</div>
+				<div class="kt-portlet__foot">
+					<div class="kt-form__actions">
+						<div class="row">
+							<div class="col-lg-6">
+							</div>
+							<div class="col-lg-6 kt-align-right">
+								<button type="reset" class="btn btn-secondary cancel" onclick="Taxedit()">@lang('app.Cancel')</button>
+								<button type="submit" name="tax_submit" id="tax_submit" class="btn btn-primary">@lang('app.Save')</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<input type="hidden" class="form-control" name="branch" id="branch" value="{{$branch}}">
+@endsection
+@section('script')
+<script type="text/javascript">
+	function Taxedit() {
+		window.history.back();
+	}
+</script>
+<script src="{{ URL::asset('assets') }}/datatables/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('assets') }}/datatables/buttons.dataTables.min.css">
+<script src="{{ URL::asset('assets') }}/datatables/dataTables.buttons.min.js" type="text/javascript"></script>
+<script src="{{ URL::asset('assets') }}/datatables/jszip.min.js" type="text/javascript"></script>
+<script src="{{ URL::asset('assets') }}/datatables/pdfmake.min.js" type="text/javascript"></script>
+<script src="{{ URL::asset('assets') }}/datatables/vfs_fonts.js" type="text/javascript"></script>
+<script src="{{ URL::asset('assets') }}/datatables/buttons.html5.min.js" type="text/javascript"></script>
+<script src="{{ URL::asset('assets') }}/datatables/buttons.print.min.js" type="text/javascript"></script>
+<script src="{{url('/')}}/resources/js/carRental/carCategory.js" type="text/javascript"></script>
+@endsection

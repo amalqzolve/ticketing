@@ -1,0 +1,1 @@
+$('.car-in-and-out').addClass('kt-menu__item--active');

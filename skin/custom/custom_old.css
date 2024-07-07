@@ -1,0 +1,421 @@
+/************************************************************
+* Detail : For common error                                 *
+************************************************************/
+.error{
+  color: red;
+  margin-left: 30%;
+  background: #6d656566;
+
+}
+
+/***********************************************************
+* For image in pg view                                     *
+***********************************************************/
+.img-view {
+  border-radius: 8% !important;
+}
+
+
+.user_tbl_img{
+  border-radius: 50% !important;
+  max-width: 59px;
+}
+
+/***********************************************************
+* Detail : Add Admin Page                                  *
+* Date   : 21-02-2020                                      *
+***********************************************************/
+.adminhd {
+  display: none;
+}
+/*.btn_cs_pos{
+    margin-top: 4px;
+}
+
+.mod_cs_pos{
+   margin-top: 154px;
+}*/
+
+/*.roomz_tbl_img{
+	max-width: 59px;
+}*/
+
+
+/*-----------------------------toggle button----------------------------------------*/
+/*.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slidertog {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 49px;
+  height: 21px;
+}
+
+.slidertog:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 14px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slidertog {
+  background-color: #2196F3;
+}
+
+input:focus + .slidertog {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slidertog:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}*/
+
+/* Rounded slidertogs */
+/*.slidertog.round {
+  border-radius: 34px !important;
+}
+
+.slidertog.round:before {
+  border-radius: 50% !important;
+}*/
+/*----------------------------------------------------------------------------------*/
+/*.error_star{
+  color: red;
+  
+}
+
+.errorbook{
+  color: red;
+  background: #6d656566;
+
+}
+.error1{
+  color: red;
+  margin-left: 5%;
+  background: #6d656566;
+}
+.pos_modal{
+  margin-top: 182px;
+}
+.delet_cancel{
+    background-color: #4bb348f5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: -3px 0px 0px -15px;
+    cursor: pointer;
+    width: 100%;
+    width: 149px;
+    height: 68px;
+}
+.delet_dlt{
+    background-color: #ed6b75;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: -3px 0px 0px -15px;
+    cursor: pointer;
+    width: 100%;
+    width: 149px;
+    height: 68px;
+}
+.warning{
+  color: #9a9a00cf;
+  font-weight: bold;
+}*/
+
+
+/*----------------------start  scroll bar---------------------------------------*/
+/* width */
+/*::-webkit-scrollbar {
+    width: 10px;
+}*/
+
+/* Track */
+/*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 8px;
+}*/
+ 
+/* Handle */
+/*::-webkit-scrollbar-thumb {
+    background: #223f61; 
+    border-radius: 10px;
+}*/
+
+/* Handle on hover */
+/*::-webkit-scrollbar-thumb:hover {
+    background: #36c6d3; 
+}*/
+/*----------------------end    scroll bar---------------------------------------*/
+/*.custlengths{
+    width: 50% !important;
+}
+.custlengththrd{
+    width: 75% !important;
+}.custlengfor{
+    width: 100% !important;
+}
+.bokformalg{
+  margin-top: -25px;
+}
+.bokformalg2{
+  margin-top: -20px;
+}
+.altadlt{
+  margin-left: 10px !important;
+}
+.submithide{
+  display: none !important;
+}
+.nextbtnhid{
+  display: none !important;
+}
+.csstylee{
+    border-color: #32c5d2 !important;
+    color: #32c5d2 !important;
+    background: 0 0 !important;
+
+}
+.csstylee:hover {
+    border-color: #32c5d2 !important;
+    color: #fff !important;
+    background: 0 0 !important;
+    background-color: #32c5d2 !important;
+
+}
+.backb_style{
+    background: 0 0 !important;
+    border-color: #f1c40f !important;
+    color: #f1c40f !important;
+    background-color: #ffffff !important;
+}
+.backb_style:hover {
+    border-color: #f1c40f !important;
+    color: #fff !important;
+    background: 0 0 !important;
+    background-color: #f1c40f !important;
+
+}
+@media only screen and (min-width: 1000px) {
+    .backb_style{
+             margin-left: -210px;
+    }
+}
+*/
+/*-----------------------price_typ--------------------------------------*/
+/*.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 65%;
+     padding: 2px 16px;
+    background-color: #ff73735c;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.form-cardzgroup{
+    margin-left: 150px;
+    margin-right: -23px;
+}  
+.cardinput{
+    border: none;
+    background: #fcc;
+    margin-top: 4px;
+}*/
+/*-----------------------price_typ--------------------------------------*/
+/*.cardvaluepos{
+  margin-top: 10px;
+}
+.btn-success{
+      color: #fff !important;
+    background-color: #449d44 !important;
+    border-color: #398439 !important; 
+}
+.btnudatajax{
+  color: #fff !important;
+  background-color: #e73d4a
+}
+.btn-warning{
+  background-color: #f0ad4e;
+}
+.btn-info{
+  background-color: #5bc0de;
+}
+.lang_profc {
+  margin-top: 3%;
+}
+.edu_info {
+  margin-top: 3%;
+}*/
+.achievmnt  {
+  margin-bottom: 6%;
+}
+.ach_image {
+  height: 6%;
+}
+
+.award_image {
+  height: 6%;
+}
+
+.certf_image {
+  height: 6%;
+}
+.common_img {
+  height: 6%;
+}
+/*****************************************************************
+* Detail : For Table of Previous Salary                          *
+* Date   : 30-01-2020                                            *
+*****************************************************************/
+/*.psal_obfs {
+  width: 87%;
+}*/
+
+/*****************************************************************
+* Detail : Remove Button of Previous Salary                      *
+* Date   : 30-01-2020                                            *
+*****************************************************************/
+/*.psal_remv {
+  text-align: center;
+}*/
+
+/*****************************************************************
+* Detail : Previous Experience Details                           *
+* Date   : 03-02-2020                                            *
+*****************************************************************/
+
+./*durn_yr {
+  width: 70%;
+  margin-top: -25%;
+}
+
+.durn_mnth {
+  width: 70%;
+  margin-top: -25%;
+  margin-left: -8%;
+}
+
+
+.empprofdetails
+{
+    display:none;
+}
+.empsalpackdetails
+{
+  display:none;
+}
+*/
+/****************************************************************
+* Details : Desired Job Position Hide Designation Id            *
+* Date    : 12-02-2020                                          *
+****************************************************************/
+/*.desgnID {
+  display: none;
+}*/
+
+/****************************************************************
+* Detail : Reffered By of Refferal Form                         *
+* Date   : 17-02-2020                                           *
+****************************************************************/
+/*#refer_by {
+  display: none;
+}*/
+
+
+/*toggle button*/
+/*.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}*/
+
+/* Rounded sliders */
+/*.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}*/
+/*toggle button*/
+
+/********************************************
+* DEtail : Certifications                   *
+* Date   : 29-02-2020                       *
+********************************************/
+/*#certfId {
+  display: none;
+}*/

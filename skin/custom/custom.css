@@ -1,0 +1,278 @@
+.btn_cs_pos{
+    margin-top: 4px;
+}
+
+.mod_cs_pos{
+   margin-top: 154px;
+}
+.user_tbl_img{
+  border-radius: 50% !important;
+  max-width: 59px;
+}
+.roomz_tbl_img{
+	max-width: 59px;
+}
+
+.select2-container {
+  width: 100% !important;
+  padding: 0;
+}
+
+
+/*-----------------------------toggle button----------------------------------------*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slidertog {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 49px;
+  height: 21px;
+}
+
+.slidertog:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 14px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slidertog {
+  background-color: #2196F3;
+}
+
+input:focus + .slidertog {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slidertog:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded slidertogs */
+.slidertog.round {
+  border-radius: 34px !important;
+}
+
+.slidertog.round:before {
+  border-radius: 50% !important;
+}
+/*----------------------------------------------------------------------------------*/
+.error_star{
+  color: red;
+  
+}
+.error{
+  color: red;
+  margin-left: 30%;
+  /*background: #6d656566;*/
+
+}
+.errorbook{
+  color: red;
+  background: #6d656566;
+
+}
+.pos_modal{
+  margin-top: 182px;
+}
+/*.delet_cancel{
+    background-color: #4bb348f5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: -3px 0px 0px -15px;
+    cursor: pointer;
+    width: 100%;
+    width: 149px;
+    height: 68px;
+}
+.delet_dlt{
+    background-color: #ed6b75;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: -3px 0px 0px -15px;
+    cursor: pointer;
+    width: 100%;
+    width: 149px;
+    height: 68px;
+}*/
+.warning{
+  color: #9a9a00cf;
+  font-weight: bold;
+}
+
+
+/*----------------------start  scroll bar---------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #223f61; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #36c6d3; 
+}
+/*----------------------end    scroll bar---------------------------------------*/
+.custlengths{
+    width: 50% !important;
+}
+.custlengththrd{
+    width: 75% !important;
+}.custlengfor{
+    width: 100% !important;
+}
+.labelalig{
+  margin-top: -15px;
+}
+.bokformalg2{
+  margin-top: -20px;
+}
+.altadlt{
+  margin-left: 10px !important;
+}
+.submithide{
+  display: none !important;
+}
+.nextbtnhid{
+  display: none !important;
+}
+.csstylee{
+    border-color: #32c5d2 !important;
+    color: #32c5d2 !important;
+    background: 0 0 !important;
+
+}
+.csstylee:hover {
+    border-color: #32c5d2 !important;
+    color: #fff !important;
+    background: 0 0 !important;
+    background-color: #32c5d2 !important;
+
+}
+.backb_style{
+    background: 0 0 !important;
+    border-color: #f1c40f !important;
+    color: #f1c40f !important;
+    background-color: #ffffff !important;
+}
+.backb_style:hover {
+    border-color: #f1c40f !important;
+    color: #fff !important;
+    background: 0 0 !important;
+    background-color: #f1c40f !important;
+
+}
+@media only screen and (min-width: 1000px) {
+    .backb_style{
+             margin-left: -210px;
+    }
+}
+
+/*-----------------------price_typ--------------------------------------*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 65%;
+     padding: 2px 16px;
+    background-color: #ff73735c;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.form-cardzgroup{
+    margin-left: 150px;
+    margin-right: -23px;
+}  
+.cardinput{
+    border: none;
+    background: #fcc;
+    margin-top: 4px;
+}
+/*-----------------------price_typ--------------------------------------*/
+.cardvaluepos{
+  margin-top: 10px;
+}
+.btn-success{
+      color: #fff !important;
+    background-color: #449d44 !important;
+    border-color: #398439 !important; 
+}
+.btnudatajax{
+  color: #fff !important;
+  background-color: #3dc104a3;
+}
+.btn-warning{
+  background-color: #f0ad4e;
+}
+.btn-info{
+  background-color: #5bc0de;
+}
+
+.alert {
+    border-color: #fd397a !important;
+    margin-bottom: 0% !important;
+}
+
+/************************************
+* For Hijri Calendar                *
+************************************/
+.w3-bar-item {
+  border-left:6px solid transparent!important
+}
+.w3-bar-item:not(:disabled):hover {
+  border-color:#f44336!important
+}
+.w3-bar-item:focus {
+  border-color:#2196F3!important
+}
+.w3-bar-item.expanded {
+  color:#fff;background-color:#616161
+}
+button.collapsed + div,button.collapsed>:nth-child(3),button.expanded>:nth-child(2){
+  display:none!important
+}
+.w3-bar-item input[type=radio],.w3-bar-item label {
+  cursor:pointer
+}
+.w3-bar-item:focus-within {
+  border-color:#2196F3!important
+}

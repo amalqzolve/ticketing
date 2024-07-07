@@ -1,0 +1,163 @@
+<?php
+
+namespace App\Http\Controllers\support_ticket;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use DataTables;
+
+use App\support_ticket\TicketStatusModel;
+use DB;
+
+use Auth;
+
+class TicketstatusController extends Controller
+{
+    /**
+     * Detail : Ticket Status
+     * Date   : 18-11-2022
+     */
+    public function index(Request $request)
+    {   
+        if ($request->ajax()) {
+            $data = TicketStatusModel::latest()->where('del_flag', 1)->get();
+            return Datatables::of($data)
+                    ->addIndexColumn()
+                    ->addColumn('action', function($row){
+                        return $row->id;
+                    })
+                    ->rawColumns(['action'])
+                    ->make(true);
+        }
+
+        return view('support_ticket.ticket_status.index');
+    }
+
+    /**
+     * Detail : Ticket Status Submit
+     * Date   : 18-11-2022
+     */
+    public function ticket_status_submit(Request $request)
+    {
+        $msg  = '';
+        $stat = '';
+        $flg  = 0;
+
+        // Check if exists
+        $status_exist = DB::table('qsupport_ticket_ticket_status')
+                            ->where('status',  $request->statusname)
+                            ->where('del_flag',  1)
+                            ->exists();
+        
+        if($status_exist) {
+            $stat = 'warning';
+            $msg  = 'Status Already Exists';
+            $flg  = 1;
+        }
+        else {
+            $ifCre= TicketStatusModel::create([
+                'status'       => $request->statusname,
+                'description'  => $request->statusdesc,
+                'add_ip_addrs' => request()->ip(),
+                'add_admin_id' => Auth::user()->id
+            ]);
+
+            if($ifCre)
+            {
+                $stat = 'success';
+                $msg  = 'Submission Successful :)';
+            }
+            else
+            {
+                $stat = 'danger';
+                $msg  = 'Submission Failed :(';
+            }
+        }
+
+        $data = array(
+            'toast_stat' => $stat,
+            'toast_msg'  => $msg,
+            'flag'       => $flg
+        );
+
+        echo json_encode($data);
+    }
+
+    /**
+     * Detail : Get the Ticket Status Details
+     * Date   : 19-11-2022
+     */
+    public function get_ticketstatus_det(Request $request)
+    {
+        $id = $request->id;
+        
+        $ticketstatusdet = TicketStatusModel::find($id);
+        echo json_encode($ticketstatusdet);
+    }
+
+    /**
+     * Detail : Ticket Status Update
+     * Date   : 19-11-2022
+     */
+    public function ticket_status_update(Request $request)
+    {
+        $msg  = '';
+        $stat = '';
+        $flg  = 0;
+
+        // Check if exists
+        $status_exist = DB::table('qsupport_ticket_ticket_status')
+                            ->where('id', '!=',  $request->iid)
+                            ->where('status', '=',  $request->statusname)
+                            ->where('del_flag', '=', 1)
+                            ->exists();
+        
+        if($status_exist) {
+            $stat = 'warning';
+            $msg  = 'Status Already Exists';
+            $flg  = 1;
+        }
+        else {
+            $ifUpd= TicketStatusModel::whereId($request->iid)->update([
+                    'status'        => $request->statusname,
+                    'description'   => $request->statusdesc,
+                    'edit_ip_addrs' => request()->ip(),
+                    'edit_admin_id' => Auth::user()->id
+                ]);
+
+            if($ifUpd)
+            {
+                $stat = 'success';
+                $msg  = 'Updation Successful :)';
+            }
+            else
+            {
+                $stat = 'danger';
+                $msg  = 'Updation Failed :(';
+            }
+        }
+
+        $data = array(
+            'toast_stat' => $stat,
+            'toast_msg'  => $msg,
+            'flag'       => $flg
+        );
+
+        echo json_encode($data);
+    }
+
+    /**
+     * Detail : Ticket Status Delete
+     * Date   : 19-11-2022
+     */
+    public function status_deletefn(Request $request)
+    {
+        $dlt_id  = $request->id;
+
+        $ifdlt = TicketStatusModel::whereId($dlt_id)->update([
+            'del_flag'     => 0
+        ]);
+
+        echo $ifdlt;
+    }
+}

@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+   /* margin-left: 60px;
+    margin-top: 60px;*/
+    overflow: hidden;
+}
+ .draggable {
+  width: 20%;
+    height: auto;
+    padding: 12px;
+    float: left;
+    /*margin: 13px 15px 12px 9px;*/
+    font-size: .9em;
+    /*border: 2px solid red;*/
+    z-index: 900;
+    color: orange;
+    /*border-bottom: 1px solid #225a70;*/
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 1px;
+    border-right-width: 0;
+    border-color: #225a70;
+    border-style: solid;
+ }
+ .draggable:hover
+ {
+      background-color: #03445d;
+ }
+  .ui-widget-header p, .ui-widget-content p { margin: 0; }
+.payeepreview{width: 50%; height: auto; padding: 5px; float: left;  z-index: 900; }
+#target{
+    font-size: 15px;
+  
+  }
+  #target >div
+  {
+    padding: 12px;
+    border-bottom: 1px solid #225a70;
+  }
+
+.ruler-vertical {
+    position: fixed;
+    top: 61px;
+    z-index: 0;
+    width: 60px;
+    height: 100%;
+    background-color: black;
+    padding-top: 60px;
+}
+
+.ruler-horizontal {
+    position: fixed;
+    top: 61px;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    padding-left: 260px;
+    background-color: black;
+        
+
+}
+
+.ruler-horizontal svg, .ruler-vertical svg {
+    width: 100%;
+    height: 100%;
+      overflow: hidden;
+}
+
+.ruler-vertical div, .ruler-horizontal div {
+    width: 80px;
+    height: 80px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    margin:125px 15px 25px 37px;
+/*    padding-top: 60px;
+    padding-left: 60px;*/
+    position: fixed;
+    background-image: url(demo.png);
+    background-position: 72px 20px;
+    background-repeat: no-repeat;
+}
+
+#previewimage{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin-top: 56px;
+    /*margin-left: 543px;*/
+   /* background-image: url(demo.png);*/
+    background-repeat: no-repeat;
+}
+#scroll {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.black-rect {
+    position: fixed;
+    background-color: black;
+/*    width: 60px;
+    height: 60px;*/
+    z-index: 10;
+}
+
+#svgV,
+#svgH {
+    overflow: visible;
+}
+
+
+#container{
+  /*margin: 0 auto;*/
+  margin-left: 262px;
+  
+}
+
+.buttoncs{
+    width: 100%;
+    height: auto;
+    /* padding: 5px; */
+    padding-top: 12px;
+    padding-bottom: 14px;
+    float: left;
+    /* margin: 13px 15px 12px 0px; */
+    font-size: .9em;
+    z-index: 900;
+    background-color: #023245;
+}
+
+.one{
+  width:300px;
+ /* height:400px;*/
+ /* background-color: #023245;*/
+  float:left;
+  margin-left: -260px;
+  /*margin-top: -53px;*/
+  font-size: 15px;
+}
+.two{
+  width:600px;
+  height:400px;
+}
+
+.customstyle{
+  width:300px;
+  height:400px;
+ /* background-color: #023245;*/
+  float:left;
+  margin-right: 20px;
+}
+.newtopbar
+{
+      width: 81%;
+    height: 61px;
+    background-color: #023245;
+    margin-left: 37px;
+    position: fixed;
+     z-index: 10;
+     padding-top: 15px;
+}
+.txstyle, .align
+{
+      padding: 8px;
+      cursor: pointer;
+}
+.txstyle:hover, .align:hover
+{
+  background-color: #d4d2d2;
+}
